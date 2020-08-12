@@ -8,7 +8,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var tvShowArray: ArrayList<TvShow>
+    private var tvShowArray: ArrayList<TvShow> = arrayListOf()
     private lateinit var tvShowAdapter: TvShowAdapter
 
     val TvShows = arrayOf("Breaking Bad","Rick and Morty", "FRIENDS","Sherlock","Stranger Things")
